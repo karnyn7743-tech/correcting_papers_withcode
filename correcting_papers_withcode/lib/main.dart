@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'views/home_screen.dart';
+import '../views/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
