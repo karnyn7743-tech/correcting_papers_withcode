@@ -1,6 +1,7 @@
-name: correcting_papers_withcode
-description: "Educational grade automation system for school control panels."
+name: wifi_p2p_app
+description: "تطبيق محادثة ومكالمات عبر الشبكة المحلية P2P بدون إنترنت"
 publish_to: 'none'
+
 version: 1.0.0+1
 
 environment:
@@ -9,21 +10,29 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  # حزمة مكالمات الفيديو والصوت
+  flutter_webrtc: ^0.9.48
+  
+  # إدارة الأذونات (الكاميرا، الميكروفون، والشبكة)
+  permission_handler: ^11.3.1
+  
+  # اكتشاف الأجهزة عبر الشبكة المحلية (mDNS / NSD)
+  nsd: ^2.4.0
+  
+  # التخزين الآمن لمعرفات الأجهزة الموثوقة
+  flutter_secure_storage: ^9.0.0
+  
+  # توليد معرّف فريد للجهاز (UUID)
+  uuid: ^4.3.3
+  
+  # أيقونات إضافية للواجهة
   cupertino_icons: ^1.0.6
-
-  # مكتبات إدارة الملفات والإكسل (أوفلاين)
-  excel: ^4.0.6
-  file_picker: ^8.0.0
-  permission_handler: ^11.3.0
-
-  # مكتبات الكاميرا والذكاء الاصطناعي أوفلاين (OCR & Barcode)
-  camera: ^0.11.0
-  google_mlkit_text_recognition: ^0.13.0
-  google_mlkit_barcode_scanning: ^0.12.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+    
   flutter_lints: ^3.0.0
 
 flutter:
