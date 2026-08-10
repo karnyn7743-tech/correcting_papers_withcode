@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
-import 'webrtc_signaling_service.dart';
+import '../services/webrtc_signaling_service.dart';
+
 
 class CallScreen extends StatefulWidget {
   final WebRTCSignalingService signalingService;
