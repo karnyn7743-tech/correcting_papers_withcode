@@ -1,4 +1,4 @@
-package com.example.wifi_p2p_fsayh
+package com.example.wifi_p2p_app
 
 import io.flutter.embedding.android.FlutterActivity
 
