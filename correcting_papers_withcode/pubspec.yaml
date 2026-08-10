@@ -1,4 +1,4 @@
-name: wifi_p2p_fsayh
+name: wifi_p2p_app
 description: "تطبيق محادثة ومكالمات عبر الشبكة المحلية P2P بدون إنترنت"
 publish_to: 'none'
 
